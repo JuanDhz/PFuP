@@ -46,4 +46,19 @@ Se usó una tarjeta MJduino UNO, la cual es una versión mejorada del Arduino UN
 ##Display de 7 segmentos
 
 ![Figura 4. Display de 7 segmentos](http://controlautomaticoeducacion.com/wp-content/uploads/2015/02/display.jpg)
-Es una forma de representar números en equipos electrónicos. Está compuesto de siete segmentos que se pueden encender o apagar individualmente. Cada segmento tiene la forma de una pequeña línea. Este componente se utiliza para la representación de números en muchos dispositivos electrónicos, debido en gran medida a su simplicidad. Externamente su forma difiere considerablemente de un led típico, internamente están constituidos por una serie de leds con unas determinadas conexiones internas. Se utilizó un manejador de display de referencia GM74LS47N
+
+Es una forma de representar números en equipos electrónicos. Está compuesto de siete segmentos que se pueden encender o apagar individualmente. Cada segmento tiene la forma de una pequeña línea. Este componente se utiliza para la representación de números en muchos dispositivos electrónicos, debido en gran medida a su simplicidad. Externamente su forma difiere considerablemente de un led típico, internamente están constituidos por una serie de leds con unas determinadas conexiones internas. Se utilizó un manejador de display de referencia DM74LS47N
+
+##Materiales Adicionales
+
+- manejador de display referencia DM74LS47N.
+- Jumpers
+- Madera de balso (montaje).
+- Protoboard.
+
+##Hojas de Datos utilizadas.
+###Matriz de LEDs
+- Decodificador [74HC138](http://www.nxp.com/documents/data_sheet/74HC_HCT138.pdf)
+- Registro de desplazamiento [74HC59](http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf)
+###Displays
+- Manejador de Display [DM74LS47](http://pdf1.alldatasheet.es/datasheet-pdf/view/51079/FAIRCHILD/DM74LS47N.html)
