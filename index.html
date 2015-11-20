@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>PROYECTO FINAL MICROPROCESADORES by JuanDhz</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">PROYECTO FINAL MICROPROCESADORES</h1>
-      <h2 class="project-tagline">Cristhian Andres Bergaño, Luis Eduardo Echeverry, Juan David Hernadez, UNIVERSIDAD DEL QUINDIO</h2>
-      <a href="https://github.com/JuanDhz/PFuP" class="btn">View on GitHub</a>
-      <a href="https://github.com/JuanDhz/PFuP/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/JuanDhz/PFuP/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html>
 
-    <section class="main-content">
-      <h1>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="PROYECTO FINAL MICROPROCESADORES : Cristhian Andres Bergaño, Luis Eduardo Echeverry, Juan David Hernadez, UNIVERSIDAD DEL QUINDIO">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>PROYECTO FINAL MICROPROCESADORES</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/JuanDhz/PFuP">View on GitHub</a>
+
+          <h1 id="project_title">PROYECTO FINAL MICROPROCESADORES</h1>
+          <h2 id="project_tagline">Cristhian Andres Bergaño, Luis Eduardo Echeverry, Juan David Hernadez, UNIVERSIDAD DEL QUINDIO</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/JuanDhz/PFuP/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/JuanDhz/PFuP/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
 <a id="características-y-especificaciones-de-los-componentes-usados-para-el-proyecto" class="anchor" href="#caracter%C3%ADsticas-y-especificaciones-de-los-componentes-usados-para-el-proyecto" aria-hidden="true"><span class="octicon octicon-link"></span></a>Características y especificaciones de los componentes usados para el Proyecto</h1>
 
 <h2>
@@ -37,12 +49,12 @@
 <li>LEDs rojos.</li>
 </ul>
 
-<p><img src="http://mco-s2-p.mlstatic.com/4-modulos-matriz-de-led-32x32-mm-tamano-64x64-mm-878701-MCO20416017079_092015-F.jpg" alt=""></p>
+<p><img src="http://mco-s2-p.mlstatic.com/4-modulos-matriz-de-led-32x32-mm-tamano-64x64-mm-878701-MCO20416017079_092015-F.jpg" alt="Figura 1. Matriz de LEDs, 4 modulos"></p>
 
 <h2>
 <a id="sensores-de-distancia-de-ultrasonido-hc-sr04" class="anchor" href="#sensores-de-distancia-de-ultrasonido-hc-sr04" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sensores de distancia de ultrasonido HC-SR04</h2>
 
-<p><img src="http://mco-s1-p.mlstatic.com/sensor-ultrasonido-distancia-hc-sr04-arduino-18989-MCO20164307534_092014-F.jpg" alt=""></p>
+<p><img src="http://mco-s1-p.mlstatic.com/sensor-ultrasonido-distancia-hc-sr04-arduino-18989-MCO20164307534_092014-F.jpg" alt="Figura 2. Sensor HC-SR04"></p>
 
 <p>El HC-SR04 es un sensor de distancias por ultrasonidos capaz de detectar objetos y calcular la distancia a la que se encuentra en un rango de 2 a 450 cm. El sensor funciona por ultrasonidos y contiene toda la electrónica encargada de hacer la medición. Su uso es tan sencillo como enviar el pulso de arranque y medir la anchura del pulso de retorno. De muy pequeño tamaño, el HC-SR04 se destaca por su bajo consumo, gran precisión y bajo precio por lo que está reemplazando a los sensores polaroid en los robots más recientes.
 Datos técnicos</p>
@@ -74,21 +86,27 @@ Datos técnicos</p>
 <h2>
 <a id="mjduino-uno" class="anchor" href="#mjduino-uno" aria-hidden="true"><span class="octicon octicon-link"></span></a>MJduino UNO</h2>
 
+<p><img src="http://shop.hcs.no/images/100379.jpg" alt="Figura 3. Tarjeta MJduino UNO"></p>
+
 <p>Se usó una tarjeta MJduino UNO, la cual es una versión mejorada del Arduino UNO. Esta tarjeta cumple con las mismas características básicas de funcionamiento, con la diferencia de que este posee pines extra para alimentación, más tierras, y pines extra para comunicación serial, además de contar con el mismo procesador ATmega 328.</p>
 
 <h2>
 <a id="display-de-7-segmentos" class="anchor" href="#display-de-7-segmentos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Display de 7 segmentos</h2>
 
-<p>Es una forma de representar números en equipos electrónicos. Está compuesto de siete segmentos que se pueden encender o apagar individualmente. Cada segmento tiene la forma de una pequeña línea. Este componente se utiliza para la representación de números en muchos dispositivos electrónicos, debido en gran medida a su simplicidad. Externamente su forma difiere considerablemente de un led típico, internamente están constituidos por una serie de leds con unas determinadas conexiones internas. Se utilizó un manejador de display de referencia GM74LS47N</p>
+<p><img src="http://controlautomaticoeducacion.com/wp-content/uploads/2015/02/display.jpg" alt="Figura 4. Display de 7 segmentos">
+Es una forma de representar números en equipos electrónicos. Está compuesto de siete segmentos que se pueden encender o apagar individualmente. Cada segmento tiene la forma de una pequeña línea. Este componente se utiliza para la representación de números en muchos dispositivos electrónicos, debido en gran medida a su simplicidad. Externamente su forma difiere considerablemente de un led típico, internamente están constituidos por una serie de leds con unas determinadas conexiones internas. Se utilizó un manejador de display de referencia GM74LS47N</p>
+      </section>
+    </div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/JuanDhz/PFuP">PROYECTO FINAL MICROPROCESADORES</a> is maintained by <a href="https://github.com/JuanDhz">JuanDhz</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">PROYECTO FINAL MICROPROCESADORES maintained by <a href="https://github.com/JuanDhz">JuanDhz</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
+    </div>
 
-    </section>
+    
 
-  
   </body>
 </html>
