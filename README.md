@@ -7,11 +7,11 @@ Está compuesta de 4 módulos de 32x32 mm cada uno. Cada fila esta manejada por 
 - Interfaz compatible con 12864LCD.
 - LEDs rojos.
 
-![](http://mco-s2-p.mlstatic.com/4-modulos-matriz-de-led-32x32-mm-tamano-64x64-mm-878701-MCO20416017079_092015-F.jpg)
+![Figura 1. Matriz de LEDs, 4 modulos](http://mco-s2-p.mlstatic.com/4-modulos-matriz-de-led-32x32-mm-tamano-64x64-mm-878701-MCO20416017079_092015-F.jpg)
 
 ##Sensores de distancia de ultrasonido HC-SR04
 
-![](http://mco-s1-p.mlstatic.com/sensor-ultrasonido-distancia-hc-sr04-arduino-18989-MCO20164307534_092014-F.jpg)
+![Figura 2. Sensor HC-SR04](http://mco-s1-p.mlstatic.com/sensor-ultrasonido-distancia-hc-sr04-arduino-18989-MCO20164307534_092014-F.jpg)
 
 El HC-SR04 es un sensor de distancias por ultrasonidos capaz de detectar objetos y calcular la distancia a la que se encuentra en un rango de 2 a 450 cm. El sensor funciona por ultrasonidos y contiene toda la electrónica encargada de hacer la medición. Su uso es tan sencillo como enviar el pulso de arranque y medir la anchura del pulso de retorno. De muy pequeño tamaño, el HC-SR04 se destaca por su bajo consumo, gran precisión y bajo precio por lo que está reemplazando a los sensores polaroid en los robots más recientes.
 Datos técnicos
@@ -34,7 +34,7 @@ Datos técnicos
 
 
 ##MJduino UNO
-
+![Figura 3. Tarjeta MJduino UNO](http://shop.hcs.no/images/100379.jpg)
 
 
 Se usó una tarjeta MJduino UNO, la cual es una versión mejorada del Arduino UNO. Esta tarjeta cumple con las mismas características básicas de funcionamiento, con la diferencia de que este posee pines extra para alimentación, más tierras, y pines extra para comunicación serial, además de contar con el mismo procesador ATmega 328.
@@ -45,4 +45,5 @@ Se usó una tarjeta MJduino UNO, la cual es una versión mejorada del Arduino UN
 
 ##Display de 7 segmentos
 
+![Figura 4. Display de 7 segmentos](http://controlautomaticoeducacion.com/wp-content/uploads/2015/02/display.jpg)
 Es una forma de representar números en equipos electrónicos. Está compuesto de siete segmentos que se pueden encender o apagar individualmente. Cada segmento tiene la forma de una pequeña línea. Este componente se utiliza para la representación de números en muchos dispositivos electrónicos, debido en gran medida a su simplicidad. Externamente su forma difiere considerablemente de un led típico, internamente están constituidos por una serie de leds con unas determinadas conexiones internas. Se utilizó un manejador de display de referencia GM74LS47N
