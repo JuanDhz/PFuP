@@ -62,5 +62,6 @@ Es una forma de representar números en equipos electrónicos. Está compuesto d
 - Registro de desplazamiento [74HC59](http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf)
 ###Displays
 - Manejador de Display [DM74LS47](http://pdf1.alldatasheet.es/datasheet-pdf/view/51079/FAIRCHILD/DM74LS47N.html)
-##Video del funcionamiento del Hockey de aire
+
+##Video delos elementos usados para el 
 ###(https://m.youtube.com/watch?v=9Hxo2HTZDxw&feature=youtu.be)
