@@ -63,5 +63,5 @@ Es una forma de representar números en equipos electrónicos. Está compuesto d
 ###Displays
 - Manejador de Display [DM74LS47](http://pdf1.alldatasheet.es/datasheet-pdf/view/51079/FAIRCHILD/DM74LS47N.html)
 
-##Video delos elementos usados para el 
-###(https://m.youtube.com/watch?v=9Hxo2HTZDxw&feature=youtu.be)
+##Video delos elementos usados para la construccion del Hockey de mesa
+###(https://youtu.be/9Hxo2HTZDxw)
