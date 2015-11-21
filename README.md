@@ -64,7 +64,7 @@ Es una forma de representar números en equipos electrónicos. Está compuesto d
 - Manejador de Display [DM74LS47](http://pdf1.alldatasheet.es/datasheet-pdf/view/51079/FAIRCHILD/DM74LS47N.html)
 
 ##Video de los elementos usados para la construccion del Hockey de mesa
-![](https://youtu.be/9Hxo2HTZDxw)
+![Video 1](https://youtu.be/9Hxo2HTZDxw)
 
 ##Video del funcionamiento del Hockey de mesa
-![](https://www.youtube.com/watch?v=NlHb6cAF1nQ)
+![Video 2](https://www.youtube.com/watch?v=NlHb6cAF1nQ)
